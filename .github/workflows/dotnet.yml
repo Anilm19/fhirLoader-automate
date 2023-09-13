@@ -27,4 +27,4 @@ jobs:
     - name: Extract files
       run: unzip fhir-data.zip -d fhir-data
     - name: Test
-      run: dotnet run -- --fhir-server-url "https://fhir-local.azurewebsites.net" --no-build --verbosity normal
+      run: dotnet run -- --fhir-server-url "https://fhir-local.azurewebsites.net"
