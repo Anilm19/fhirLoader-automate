@@ -30,7 +30,7 @@ namespace FhirLoader
         {
             if (string.IsNullOrEmpty(inputFolder))
             {
-                inputFolder = @"fhir-data/fhir/";
+                inputFolder = @"fhir-data/fhir-data/";
             }
             HttpClient httpClient = new HttpClient();
             MetricsCollector metrics = new MetricsCollector();
