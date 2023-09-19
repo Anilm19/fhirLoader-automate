@@ -32,6 +32,10 @@ namespace FhirLoader
             {
                 inputFolder = @"fhir-data/fhir-data/";
             }
+            if (fhirServerUrl==null)
+            {
+                fhirServerUrl = new Uri("http://host.docker.internal:8080");
+            }
             HttpClient httpClient = new HttpClient();
             MetricsCollector metrics = new MetricsCollector();
 
