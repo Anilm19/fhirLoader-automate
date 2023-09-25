@@ -31,6 +31,7 @@ namespace FhirLoader
             if (string.IsNullOrEmpty(inputFolder))
             {
                 inputFolder = @"fhir-data/fhir-data/";
+                // New line comment
             }
             if (fhirServerUrl==null)
             {
