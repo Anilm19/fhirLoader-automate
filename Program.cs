@@ -30,7 +30,7 @@ namespace FhirLoader
         {
             if (string.IsNullOrEmpty(inputFolder))
             {
-                inputFolder = @"fhir-data/fhir-data/";
+                inputFolder = @"synthea/output/fhir/";
                 // New line comment
             }
             if (fhirServerUrl==null)
